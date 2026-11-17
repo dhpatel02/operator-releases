@@ -59,6 +59,8 @@ After that, Operator opens like any other app and updates itself.
     **Explain** (the plan, and whether an index is used), and **Validation** rules.
   - Right-click a value to copy it, or to filter by it.
   - **Export** a collection as JSON or CSV, or the query as Java, Python, Node.js or C# code.
+  - **Save chosen documents** as JSON or CSV: click a row in the Table view, ⌘-click or ⇧-click
+    for more, or ⌘-click a card, then choose **Save → Save N Selected as JSON…** or **CSV…**.
 - **Shell:** a mongosh-style JavaScript editor with completions for the shell's methods,
   operators, collection names and field names. ⌘⏎ runs the statement at the caret, ⇧⌘⏎ runs
   them all, and each result gets a tab of its own.
