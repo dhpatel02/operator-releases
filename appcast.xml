@@ -22,6 +22,28 @@
                        length="9290316"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>Operator 0.2.0</title>
+            <pubDate>Mon, 16 Nov 2026 19:58:43 -0500</pubDate>
+            <sparkle:version>0.2.0</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <h3>New</h3>
+                <ul>
+                <li>Check for updates and open settings from the app menu (#3)</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                <li>Make the release and secret checks fire as intended (#2)</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/dhpatel02/operator-releases/releases/download/v0.2.0/Operator-0.2.0-arm64.zip"
+                       sparkle:edSignature="xaUCbhzj4lKa7p3VCLgRLUnnQM5aMVUSk6IEHYrI/eXYewzAJwP8qVdCwJcsmBcNneleLAmA3eA3Q9ZZxkMDBw=="
+                       length="9296872"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>

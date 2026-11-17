@@ -101,6 +101,7 @@ error, which names what is missing.
 | ⇧⌘[ / ⇧⌘] | Previous / next tab |
 | ⌘1 – ⌘9 | Go to a tab |
 | ⌘K | Command bar: find a collection or a tab |
+| ⌘, | Settings |
 
 **Settings** lists the shortcuts too.
 
@@ -116,4 +117,4 @@ error, which names what is missing.
 ## Updates
 
 Operator checks this repo for a newer version once a day and asks before it installs one. To
-check now, open **Settings** and click **Check for Updates…**.
+check now, choose **Operator → Check for Updates…**.
