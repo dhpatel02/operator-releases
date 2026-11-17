@@ -44,6 +44,24 @@
                        length="9296872"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>Operator 0.3.0</title>
+            <pubDate>Tue, 17 Nov 2026 13:10:57 -0500</pubDate>
+            <sparkle:version>0.3.0</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <h3>New</h3>
+                <ul>
+                <li>Say "Copied" after a copy, and turn disclosure arrows (#5)</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/dhpatel02/operator-releases/releases/download/v0.3.0/Operator-0.3.0-arm64.zip"
+                       sparkle:edSignature="VEh7rcltg0YIG3qybjnqCwGxsImPAhFkkQKe1a7L5nK6J+Adb3A8a3jTLnaxcnr/mxSRZnpQieJZ69gmaeNUDg=="
+                       length="9299182"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
