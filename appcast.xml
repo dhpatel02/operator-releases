@@ -84,6 +84,34 @@
                        length="9302335"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>Operator 0.5.0</title>
+            <pubDate>Wed, 18 Nov 2026 15:03:57 -0500</pubDate>
+            <sparkle:version>0.5.0</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <h3>New</h3>
+                <ul>
+                <li>Select and copy the text of a result card (#17)</li>
+                <li>Show documents' fields A to Z from the View menu (#12)</li>
+                <li>Disconnect every open connection at once (#10)</li>
+                <li>Import documents into a collection from JSON or CSV (#9)</li>
+                <li>Import and export saved connections as Compass files (#8)</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                <li>Ask before closing a tab stops an import (#19)</li>
+                <li>Retry the releases repo check, and say why it failed (#15)</li>
+                <li>Show long index names and compound keys whole (#14)</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/dhpatel02/operator-releases/releases/download/v0.5.0/Operator-0.5.0-arm64.zip"
+                       sparkle:edSignature="nbfqBy6q/vU+19Mf9Xq/PTNZ1LFEwThKD2AoA09QD7Vx4loOKNuncuSbMl/pxiVZ0yXveShapKz7VbBhGGltCg=="
+                       length="9478070"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>

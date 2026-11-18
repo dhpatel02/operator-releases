@@ -51,24 +51,32 @@ After that, Operator opens like any other app and updates itself.
 ## Features
 
 - **Sidebar:** saved connections in folders, each with a color, and the open connections with
-  their databases and collections. ⌘K searches every open connection's collections.
+  their databases and collections. The eject button on the Open heading disconnects them all.
+  ⌘K searches every open connection's collections.
 - **Collection tab:**
   - **Documents** as cards, a table, JSON or a key/value tree, paged from the server.
+    **View → Sort Fields A to Z** shows their fields A to Z, `_id` first.
   - **Aggregations:** build a pipeline stage by stage and see each stage's output.
   - **Indexes**, **Schema** (sampled fields and types, with a JSON Schema to save),
     **Explain** (the plan, and whether an index is used), and **Validation** rules.
   - Right-click a value to copy it, or to filter by it.
+  - **Import…** a JSON or CSV file's documents into the collection, once the connection is
+    switched to read-write: Operator shows them first and asks before it inserts them.
   - **Export** a collection as JSON or CSV, or the query as Java, Python, Node.js or C# code.
   - **Save chosen documents** as JSON or CSV: click a row in the Table view, ⌘-click or ⇧-click
     for more, or ⌘-click a card, then choose **Save → Save N Selected as JSON…** or **CSV…**.
+- **Import & Export Connections** (File menu): bring your saved connections over from MongoDB
+  Compass (in Compass: File → Export Saved Connections), or export Operator's for Compass.
+  Passwords and other secrets come and go only encrypted with a passphrase you choose.
 - **Shell:** a mongosh-style JavaScript editor with completions for the shell's methods,
   operators, collection names and field names. ⌘⏎ runs the statement at the caret, ⇧⌘⏎ runs
   them all, and each result gets a tab of its own.
 - **Read-only by default:** while a connection is read-only, the shell refuses anything that
-  writes before it reaches the server. Change the default in **Settings**.
+  writes before it reaches the server, and Import is off. Change the default in **Settings**.
 - **Monitor tab:** what the server is running, its operation counters and storage, and slow
   operations.
 - Light and dark appearance, as the system is or as you choose in **Settings**.
+- **Copy text** from a result card: drag over it, or double-click a field's name, then ⌘C.
 
 ## Oracle Autonomous JSON Database
 
