@@ -51,7 +51,8 @@ After that, Operator opens like any other app and updates itself.
 ## Features
 
 - **Sidebar:** saved connections in folders, each with a color, and the open connections with
-  their databases and collections. The eject button on the Open heading disconnects them all.
+  their databases and collections. The eject button on the Open heading disconnects them all;
+  right-click a connection and choose **Disconnect Others** to keep only that one.
   ⌘K searches every open connection's collections.
 - **Collection tab:**
   - **Documents** as cards, a table, JSON or a key/value tree, paged from the server.
@@ -60,6 +61,10 @@ After that, Operator opens like any other app and updates itself.
   - **Indexes**, **Schema** (sampled fields and types, with a JSON Schema to save),
     **Explain** (the plan, and whether an index is used), and **Validation** rules.
   - Right-click a value to copy it, or to filter by it.
+  - **Edit, duplicate or delete a document:** right-click it and choose **Edit Document…**,
+    **Duplicate Document…** or **Delete Document…**, or add one with **Insert Document…** over
+    the documents, once the connection is switched to read-write. Operator asks before it saves,
+    inserts or deletes, and an edit changes only the fields you changed.
   - **Import…** a JSON or CSV file's documents into the collection, once the connection is
     switched to read-write: Operator shows them first and asks before it inserts them.
   - **Export** a collection as JSON or CSV, or the query as Java, Python, Node.js or C# code.
@@ -107,7 +112,7 @@ error, which names what is missing.
 | Esc | Stop a running query |
 | ⌘F / ⌘G | Find in the results / the next match |
 | ⌘T | New shell |
-| ⌘W | Close the tab |
+| ⌘W | Close the tab (right-click a tab to close the others, or all of them) |
 | ⇧⌘[ / ⇧⌘] | Previous / next tab |
 | ⌘1 – ⌘9 | Go to a tab |
 | ⌘K | Command bar: find a collection or a tab |
@@ -118,7 +123,9 @@ error, which names what is missing.
 ## Your data
 
 - Connection strings, which hold passwords, are kept in your Mac's **Keychain**, never in a
-  file.
+  file. After an update, macOS asks whether Operator may use them: enter your Mac's
+  password and choose **Always Allow**. Updating from 0.5.0 or earlier, it also asks once for
+  each saved connection, the first time you open it.
 - Saved connection names, folders, settings and shell history are in
   `~/Library/Application Support/app.operator.desktop/`.
 - Operator connects only to the databases you enter, and to this repo on GitHub to check for

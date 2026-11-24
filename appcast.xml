@@ -112,6 +112,30 @@
                        length="9478070"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>Operator 0.6.0</title>
+            <pubDate>Tue, 24 Nov 2026 18:01:20 -0500</pubDate>
+            <sparkle:version>0.6.0</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <h3>New</h3>
+                <ul>
+                <li>Insert a document, or a copy of one, from the results (#23)</li>
+                <li>Edit and delete a document from its card's menu (#22)</li>
+                <li>Close tabs and connections together (#21)</li>
+                </ul>
+                <h3>Fixes</h3>
+                <ul>
+                <li>Keep all connection strings in one Keychain item (#20)</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/dhpatel02/operator-releases/releases/download/v0.6.0/Operator-0.6.0-arm64.zip"
+                       sparkle:edSignature="ekRlT85UMOhJnfZmm+6VX67IvlM/XFw4AnaXEwtsyD7apKDL0F1ilSGgiDjLqNwjs0bI3h/gWJ575DZySTGMCA=="
+                       length="9726497"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
