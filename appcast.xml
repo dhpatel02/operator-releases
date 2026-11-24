@@ -136,6 +136,24 @@
                        length="9726497"
                        type="application/octet-stream"/>
         </item>
+        <item>
+            <title>Operator 0.6.1</title>
+            <pubDate>Tue, 24 Nov 2026 18:39:10 -0500</pubDate>
+            <sparkle:version>0.6.1</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>What's New</h2>
+                <h3>New</h3>
+                <ul>
+                <li>Edit from a card's pencil, and finish writes as tabs close (#25)</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/dhpatel02/operator-releases/releases/download/v0.6.1/Operator-0.6.1-arm64.zip"
+                       sparkle:edSignature="k7Wc2Hmkz7/jHJJeV2Bv71iNgxtQtbQfM3zMh0pZLhQNLF3hJktpPSWqjdwnP3UB2KAn5Z0ppESdicafKaopDQ=="
+                       length="9743905"
+                       type="application/octet-stream"/>
+        </item>
         <!-- APPCAST_ITEMS -->
     </channel>
 </rss>
